@@ -52,6 +52,9 @@ header {
 #jumbo {
   padding-top: 50px;
   min-height: 300px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
 }
 
 /* regole corpo pagina */
@@ -59,3 +62,11 @@ header {
 .centra-sez1 {
   padding: 0 5%;
 }
+
+.image-badge-apple {
+    display: inline-block;
+    width: 160px;
+    height: 54px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
