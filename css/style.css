@@ -43,6 +43,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 900;
+  background-color: white;
 }
 
 #nav-mobile {
@@ -81,10 +82,29 @@ ul{
   background-position: center;
 }
 
-#inside-jumbo:first-child h1{
+#inside-jumbo h1:first-child {
   text-align: center;
   font-size: 40px;
   color: white;
+}
+
+#inside-jumbo p:nth-child(2) {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.badges{
+  margin-left: 180px;
+  margin-top: 15px;
+}
+
+.badges img:nth-child(1){
+  width: 150px;
+}
+
+.badges img:nth-child(2){
+  width: 140px;
 }
 
 /* regole corpo pagina */
