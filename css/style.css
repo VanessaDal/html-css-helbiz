@@ -16,8 +16,8 @@ img {
 /* regole di debug */
 [class*="col-"] {
   min-height: 60px;
-  background-color: lightgreen;
-  border: solid 1px  #000;
+  /* background-color: lightgreen;
+  border: solid 1px  #000; */
   padding: 2px;
 }
 
@@ -111,14 +111,16 @@ ul{
 /* regole corpo pagina */
 
 .centra-sez1 {
-  padding: 0 5%;
+  /* padding: 0 10%; */
+  margin-left: 90px;
 }
 
 /* seione prodotti */
 #products{
   background-color: rgb(250,250,250);
-  width: 47%;
+  width: 45%;
   margin-right: 3%;
+  margin-bottom: 40px;
 }
 
 a{
@@ -140,4 +142,42 @@ a{
   display: inline-block;
   padding-left: 42%;
   padding-top: 15px;
+}
+
+/* sezione how does it work */
+
+#top-how-to{
+  background-image:url(../img/Helbiz-1024x424.jpg);
+  min-height: 400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.bottom-how-to{
+  width: 90%;
+  margin: auto;
+  /* position: relative; */
+}
+
+#work h1:first-child{
+  margin-left: 60%;
+  margin-top: 30%;
+  margin-bottom: 30%
+}
+
+#phone{
+  width:300px;
+  position: relative;
+  bottom: 300px;
+  left: 60px;
+}
+
+#step h3:nth-child(1){
+  padding-left: 40%;
+  padding-top: 30%
+}
+
+#step p:nth-child(2){
+  padding-left: 40%;
 }
