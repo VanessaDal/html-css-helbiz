@@ -96,7 +96,7 @@ ul{
 }
 
 .badges{
-  margin-left: 180px;
+  margin-left: 30%;
   margin-top: 15px;
 }
 
@@ -112,13 +112,19 @@ ul{
 
 .centra-sez1 {
   /* padding: 0 10%; */
-  margin-left: 90px;
+  margin-left: 3%;
 }
 
 /* seione prodotti */
+
+#products-container{
+  width: 90%;
+  margin: auto;
+}
+
 #products{
   background-color: rgb(250,250,250);
-  width: 45%;
+  width: 47%;
   margin-right: 3%;
   margin-bottom: 40px;
 }
@@ -215,9 +221,37 @@ a{
   text-align: center;
   line-height: 1.9;
   color: white;
+  padding-top: 15px;
+  width: 47%;
+  margin-right: 3%;
+}
+
+@media screen and (max-width: 768px) {
+#get-the-app{
+  background: rgb(36,38,79);
+  background: radial-gradient(circle, rgba(36,38,79,0.6786064767703957) 0%, rgba(76,78,82,1) 100%);
+  text-align: center;
+  line-height: 1.9;
+  color: white;
+  padding-top: 15px;
+  margin-left: 30%;
+  margin-bottom: 5%;
+}
+
 }
 
 #map{
   margin-top: 20px;
   margin-bottom: -10px;
+}
+
+#find-us-around{
+  background-image: url(../img/sfondo_info3.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: 394px;
+  text-align: center;
+  line-height: 1.9;
+  color: white;
+  padding-top: 15px;
 }
