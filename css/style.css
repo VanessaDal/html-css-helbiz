@@ -16,8 +16,8 @@ img {
 /* regole di debug */
 [class*="col-"] {
   min-height: 60px;
-  background-color: lightgreen;
-  border: solid 1px  #000;
+  /* background-color: lightgreen;
+  border: solid 1px  #000; */
   padding: 2px;
 }
 
@@ -69,8 +69,8 @@ ul{
 #right-nav li{
   font-size: 12px;
   float: left;
-  margin-right: 10px;
-  margin-top: 20px;
+  margin-right: 8px;
+  margin-top: 12px;
   /* margin-bottom: 22px; */
 }
 
@@ -96,7 +96,7 @@ ul{
 }
 
 .badges{
-  margin-left: 30%;
+  text-align: center;
   margin-top: 15px;
 }
 
@@ -153,7 +153,7 @@ a{
 /* sezione how does it work */
 
 #top-how-to{
-  background-image:url(../img/Helbiz-1024x424.jpg);
+  background-image:url(../img/anziano.jpg);
   min-height: 400px;
   background-size:cover;
   background-repeat:no-repeat;
@@ -180,13 +180,28 @@ a{
   left: 60px;
 }
 
-#step h3:nth-child(1){
+#step h3:first-child{
   padding-left: 40%;
-  padding-top: 30%
+  padding-top: 30%;
+  min-width: 35%;
 }
 
 #step p:nth-child(2){
   padding-left: 40%;
+}
+
+@media screen and (max-width: 768px){
+  #phone{
+    max-width:25%;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+  }
+
+  #step h3:first-child{
+    padding-bottom: 30%;
+    padding-left: 0;
+  }
 }
 
 /* sezione smart mobility */
@@ -202,6 +217,8 @@ a{
 #mobility-right{
   margin-top: -100px;
   text-align: center;
+  color: white;
+  line-height: 1.5;
 }
 
 #mobility-right h1:nth-child(1){
@@ -213,6 +230,7 @@ a{
   width: 90%;
   margin: auto;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #get-the-app{
@@ -249,7 +267,7 @@ a{
   background-image: url(../img/sfondo_info3.jpg);
   background-size:cover;
   background-repeat: no-repeat;
-  min-height: 394px;
+  min-height: 392px;
   text-align: center;
   line-height: 1.9;
   color: white;
@@ -262,6 +280,7 @@ a{
   min-height: 400px;
   background-size: contain;
   background-position: top;
+  margin-bottom: 30px;
 }
 
 #center-patchwork{
@@ -315,4 +334,31 @@ li{
 li a {
   margin-top: 10px;
   color: black;
+}
+
+/* footer */
+
+footer{
+  background-color: black;
+}
+
+#up-footer{
+  padding-top: 60px;
+  color: white;
+  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+
+
+#mid-footer{
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#footer-icons a{
+  color: white;
+  font-size: 18px;
 }
