@@ -164,11 +164,11 @@ a{
 #work h1:first-child{
   padding-left: 60%;
   padding-top: 30%;
-  padding-bottom: 30%
+  /* padding-bottom: 30% */
 }
 
 #phone{
-  width:300px;
+  max-width:25%;
   position: relative;
   bottom: 300px;
   left: 60px;
@@ -190,7 +190,7 @@ a{
   background-image:url(../img/scooter.f0a0397.jpg);
   min-height: 400px;
   background-size:cover;
-  /* padding-bottom: -200px; */
+  margin-top: 5%;
 }
 
 #mobility-right{
@@ -206,4 +206,18 @@ a{
 .get-app{
   width: 90%;
   margin: auto;
+  margin-top: 25px;
+}
+
+#get-the-app{
+  background: rgb(36,38,79);
+  background: radial-gradient(circle, rgba(36,38,79,0.6786064767703957) 0%, rgba(76,78,82,1) 100%);
+  text-align: center;
+  line-height: 1.9;
+  color: white;
+}
+
+#map{
+  margin-top: 20px;
+  margin-bottom: -10px;
 }
